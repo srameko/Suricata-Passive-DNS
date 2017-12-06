@@ -14,4 +14,4 @@ Don't forget to test your pdns config file `suricata -c <path-to-pdns.yaml> -T`
 ## Log path
 Default log path is `/var/log/suricata/pdns.log`
 
-Passive DNS log format: `<TIMESTAMP> <TYPE> <RRNAME> <ADDR>`
+Passive DNS log format: `TIMESTAMP TYPE RRNAME ADDR`
