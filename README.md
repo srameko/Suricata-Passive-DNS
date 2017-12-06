@@ -16,3 +16,6 @@ Don't forget to test your pdns config file `suricata -c <path-to-pdns.yaml> -T`
 Default log path is `/var/log/suricata/pdns.log`
 
 Passive DNS log format: `TIMESTAMP TYPE RRNAME ADDR`
+
+## Thanks
+Thanks to Jason Ish and his Suricata Verification Tests Project (Lua Output DNS) which I used to edit and create this Project.
