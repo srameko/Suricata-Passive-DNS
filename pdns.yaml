@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+
+include: /etc/suricata/suricata.yaml
+
+outputs:
+  - lua:
+      enabled: yes
+      scripts-dir: /etc/suricata/scripts
+      scripts:
+        - pdns.lua
