@@ -9,6 +9,9 @@ How to use Suricata (offline analysis, PCAP) as Passive DNS records producer
 	mkdir /etc/suricata/scripts
 	cp pdns.lua /etc/suricata/scripts/
 ```
+## Tested on
+Suricata 3.2.4@CentOS 7.4.1708 (rpm package)
+
 ## Test
 Don't forget to test your pdns config file `suricata -c <path-to-pdns.yaml> -T`
 
