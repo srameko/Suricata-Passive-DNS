@@ -3,10 +3,11 @@ How to use Suricata (offline analysis, PCAP) as Passive DNS records producer
 
 ## How to setup Suricata as Passive DNS records
 ```bash
-	cd /etc/suricata/
+	wget https://github.com/srameko/Suricata-Passive-DNS/archive/master.zip
+	cd /Suricata-Passive-DNS/
 	cp pdns.yaml /etc/suricata/
-	mkdir scripts
-	cp pdns.lua scripts/
+	mkdir /etc/suricata/scripts
+	cp pdns.lua /etc/suricata/scripts/
 ```
 ## Test
 Don't forget to test your pdns config file `suricata -c <path-to-pdns.yaml> -T`
